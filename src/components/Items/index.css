@@ -1,4 +1,4 @@
-.accessories{
+.items-wrapper {
   border-top: 4px solid black;
 }
 
@@ -25,6 +25,10 @@
 
 .items-title {
   text-align: center;
+}
+
+a {
+  color: black;
 }
 
 img {
@@ -67,11 +71,10 @@ i:hover {
   cursor: pointer;
 }
 
-.accessories-title {
+.items-title {
   margin: 3em 0;
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
   color: rgba(0, 0, 0, 0.8);
   text-transform: uppercase;
-  text-align: center;
 }
