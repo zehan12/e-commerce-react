@@ -13,7 +13,7 @@ import Men from './components/Men';
 import Clothes from './components/Clothes';
 import Accessories from './components/Accessories';
 import ShowProduct from './components/ShowProduct';
-import registerServiceWorker from './registerServiceWorker';
+import Contact from "./components/Contact"
 
 ReactDOM.render(
   <BrowserRouter>
@@ -26,6 +26,7 @@ ReactDOM.render(
         <Route path="/clothes" component={Clothes}  />
         <Route path="/accessories" component={Accessories} />
         <Route exact path="/products/:id" component={ShowProduct} />
+        <Route path="/contact" component={Contact} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>
